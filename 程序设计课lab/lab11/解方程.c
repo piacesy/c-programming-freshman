@@ -50,7 +50,7 @@ int main(){
 		int delta=n2*n2-4*n1*n3;
 		x1=(-1*n2+sqrt(delta))/2/n1;
 		x2=(-1*n2-sqrt(delta))/2/n1;
-		printf("%.2f\n%.2f\n",x1,x2);
+		printf("%.2f\n%.2f\n",x2,x1);
 	}
 	else{
 		printf("No Solution\n");
